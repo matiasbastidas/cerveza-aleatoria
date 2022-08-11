@@ -1,0 +1,39 @@
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cerveza-aleatoria {
+    margin-top: 200px;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.descripcion {
+    max-width: 600px;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-cerveza {
+    display: inline-flex;
+}
+
+.btn-cerveza a{
+    display: inline-block;
+    background-color: #FEBC58;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 3px;
+}
